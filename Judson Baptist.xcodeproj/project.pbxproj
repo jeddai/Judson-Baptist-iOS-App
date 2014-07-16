@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566AD1B819772AF800C15F2D /* JudsonFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566AD1B719772AF800C15F2D /* JudsonFourthViewController.m */; };
+		568CDFD719745B4800C63D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568CDFD619745B4800C63D50 /* Foundation.framework */; };
+		568CDFD919745B4800C63D50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568CDFD819745B4800C63D50 /* CoreGraphics.framework */; };
+		568CDFDB19745B4800C63D50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568CDFDA19745B4800C63D50 /* UIKit.framework */; };
+		568CDFE119745B4800C63D50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 568CDFDF19745B4800C63D50 /* InfoPlist.strings */; };
+		568CDFE319745B4800C63D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CDFE219745B4800C63D50 /* main.m */; };
+		568CDFE719745B4800C63D50 /* JudsonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CDFE619745B4800C63D50 /* JudsonAppDelegate.m */; };
+		568CDFEA19745B4800C63D50 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568CDFE819745B4800C63D50 /* Main_iPhone.storyboard */; };
+		568CDFED19745B4800C63D50 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568CDFEB19745B4800C63D50 /* Main_iPad.storyboard */; };
+		568CDFF019745B4800C63D50 /* JudsonFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CDFEF19745B4800C63D50 /* JudsonFirstViewController.m */; };
+		568CDFF319745B4800C63D50 /* JudsonSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CDFF219745B4800C63D50 /* JudsonSecondViewController.m */; };
+		568CDFF519745B4800C63D50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568CDFF419745B4800C63D50 /* Images.xcassets */; };
+		568CDFFC19745B4900C63D50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568CDFFB19745B4900C63D50 /* XCTest.framework */; };
+		568CDFFD19745B4900C63D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568CDFD619745B4800C63D50 /* Foundation.framework */; };
+		568CDFFE19745B4900C63D50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568CDFDA19745B4800C63D50 /* UIKit.framework */; };
+		568CE00619745B4900C63D50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 568CE00419745B4900C63D50 /* InfoPlist.strings */; };
+		568CE00819745B4900C63D50 /* JudsonAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CE00719745B4900C63D50 /* JudsonAppTests.m */; };
+		568CE013197462A000C63D50 /* JudsonThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CE012197462A000C63D50 /* JudsonThirdViewController.m */; };
+		568CE016197468D600C63D50 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CE015197468D600C63D50 /* Annotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568CDFFF19745B4900C63D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568CDFCB19745B4800C63D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568CDFD219745B4800C63D50;
+			remoteInfo = JudsonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		566AD1B619772AF800C15F2D /* JudsonFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudsonFourthViewController.h; sourceTree = "<group>"; };
+		566AD1B719772AF800C15F2D /* JudsonFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudsonFourthViewController.m; sourceTree = "<group>"; };
+		568CDFD319745B4800C63D50 /* Judson Baptist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Judson Baptist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568CDFD619745B4800C63D50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		568CDFD819745B4800C63D50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		568CDFDA19745B4800C63D50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		568CDFDE19745B4800C63D50 /* Judson Baptist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Judson Baptist-Info.plist"; sourceTree = "<group>"; };
+		568CDFE019745B4800C63D50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		568CDFE219745B4800C63D50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568CDFE419745B4800C63D50 /* Judson Baptist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Judson Baptist-Prefix.pch"; sourceTree = "<group>"; };
+		568CDFE519745B4800C63D50 /* JudsonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JudsonAppDelegate.h; sourceTree = "<group>"; };
+		568CDFE619745B4800C63D50 /* JudsonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JudsonAppDelegate.m; sourceTree = "<group>"; };
+		568CDFE919745B4800C63D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		568CDFEC19745B4800C63D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		568CDFEE19745B4800C63D50 /* JudsonFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JudsonFirstViewController.h; sourceTree = "<group>"; };
+		568CDFEF19745B4800C63D50 /* JudsonFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JudsonFirstViewController.m; sourceTree = "<group>"; };
+		568CDFF119745B4800C63D50 /* JudsonSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JudsonSecondViewController.h; sourceTree = "<group>"; };
+		568CDFF219745B4800C63D50 /* JudsonSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JudsonSecondViewController.m; sourceTree = "<group>"; };
+		568CDFF419745B4800C63D50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		568CDFFA19745B4900C63D50 /* Judson BaptistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Judson BaptistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568CDFFB19745B4900C63D50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		568CE00319745B4900C63D50 /* Judson BaptistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Judson BaptistTests-Info.plist"; sourceTree = "<group>"; };
+		568CE00519745B4900C63D50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		568CE00719745B4900C63D50 /* JudsonAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JudsonAppTests.m; sourceTree = "<group>"; };
+		568CE011197462A000C63D50 /* JudsonThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudsonThirdViewController.h; sourceTree = "<group>"; };
+		568CE012197462A000C63D50 /* JudsonThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudsonThirdViewController.m; sourceTree = "<group>"; };
+		568CE014197468D600C63D50 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		568CE015197468D600C63D50 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568CDFD019745B4800C63D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568CDFD919745B4800C63D50 /* CoreGraphics.framework in Frameworks */,
+				568CDFDB19745B4800C63D50 /* UIKit.framework in Frameworks */,
+				568CDFD719745B4800C63D50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568CDFF719745B4900C63D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568CDFFC19745B4900C63D50 /* XCTest.framework in Frameworks */,
+				568CDFFE19745B4900C63D50 /* UIKit.framework in Frameworks */,
+				568CDFFD19745B4900C63D50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568CDFCA19745B4800C63D50 = {
+			isa = PBXGroup;
+			children = (
+				568CDFDC19745B4800C63D50 /* JudsonApp */,
+				568CE00119745B4900C63D50 /* JudsonAppTests */,
+				568CDFD519745B4800C63D50 /* Frameworks */,
+				568CDFD419745B4800C63D50 /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 1;
+		};
+		568CDFD419745B4800C63D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568CDFD319745B4800C63D50 /* Judson Baptist.app */,
+				568CDFFA19745B4900C63D50 /* Judson BaptistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568CDFD519745B4800C63D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				568CDFD619745B4800C63D50 /* Foundation.framework */,
+				568CDFD819745B4800C63D50 /* CoreGraphics.framework */,
+				568CDFDA19745B4800C63D50 /* UIKit.framework */,
+				568CDFFB19745B4900C63D50 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568CDFDC19745B4800C63D50 /* JudsonApp */ = {
+			isa = PBXGroup;
+			children = (
+				568CDFE519745B4800C63D50 /* JudsonAppDelegate.h */,
+				568CDFE619745B4800C63D50 /* JudsonAppDelegate.m */,
+				568CDFE819745B4800C63D50 /* Main_iPhone.storyboard */,
+				568CDFEB19745B4800C63D50 /* Main_iPad.storyboard */,
+				568CDFEE19745B4800C63D50 /* JudsonFirstViewController.h */,
+				568CDFEF19745B4800C63D50 /* JudsonFirstViewController.m */,
+				568CDFF119745B4800C63D50 /* JudsonSecondViewController.h */,
+				568CDFF219745B4800C63D50 /* JudsonSecondViewController.m */,
+				568CE011197462A000C63D50 /* JudsonThirdViewController.h */,
+				568CE012197462A000C63D50 /* JudsonThirdViewController.m */,
+				566AD1B619772AF800C15F2D /* JudsonFourthViewController.h */,
+				566AD1B719772AF800C15F2D /* JudsonFourthViewController.m */,
+				568CE014197468D600C63D50 /* Annotation.h */,
+				568CE015197468D600C63D50 /* Annotation.m */,
+				568CDFF419745B4800C63D50 /* Images.xcassets */,
+				568CDFDD19745B4800C63D50 /* Supporting Files */,
+			);
+			path = JudsonApp;
+			sourceTree = "<group>";
+		};
+		568CDFDD19745B4800C63D50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568CDFDE19745B4800C63D50 /* Judson Baptist-Info.plist */,
+				568CDFDF19745B4800C63D50 /* InfoPlist.strings */,
+				568CDFE219745B4800C63D50 /* main.m */,
+				568CDFE419745B4800C63D50 /* Judson Baptist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		568CE00119745B4900C63D50 /* JudsonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				568CE00719745B4900C63D50 /* JudsonAppTests.m */,
+				568CE00219745B4900C63D50 /* Supporting Files */,
+			);
+			path = JudsonAppTests;
+			sourceTree = "<group>";
+		};
+		568CE00219745B4900C63D50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568CE00319745B4900C63D50 /* Judson BaptistTests-Info.plist */,
+				568CE00419745B4900C63D50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568CDFD219745B4800C63D50 /* Judson Baptist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568CE00B19745B4900C63D50 /* Build configuration list for PBXNativeTarget "Judson Baptist" */;
+			buildPhases = (
+				568CDFCF19745B4800C63D50 /* Sources */,
+				568CDFD019745B4800C63D50 /* Frameworks */,
+				568CDFD119745B4800C63D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Judson Baptist";
+			productName = JudsonApp;
+			productReference = 568CDFD319745B4800C63D50 /* Judson Baptist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568CDFF919745B4900C63D50 /* Judson BaptistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568CE00E19745B4900C63D50 /* Build configuration list for PBXNativeTarget "Judson BaptistTests" */;
+			buildPhases = (
+				568CDFF619745B4900C63D50 /* Sources */,
+				568CDFF719745B4900C63D50 /* Frameworks */,
+				568CDFF819745B4900C63D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568CE00019745B4900C63D50 /* PBXTargetDependency */,
+			);
+			name = "Judson BaptistTests";
+			productName = JudsonAppTests;
+			productReference = 568CDFFA19745B4900C63D50 /* Judson BaptistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568CDFCB19745B4800C63D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Judson;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					568CDFD219745B4800C63D50 = {
+						DevelopmentTeam = EC6U9U79FQ;
+					};
+					568CDFF919745B4900C63D50 = {
+						TestTargetID = 568CDFD219745B4800C63D50;
+					};
+				};
+			};
+			buildConfigurationList = 568CDFCE19745B4800C63D50 /* Build configuration list for PBXProject "Judson Baptist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568CDFCA19745B4800C63D50;
+			productRefGroup = 568CDFD419745B4800C63D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568CDFD219745B4800C63D50 /* Judson Baptist */,
+				568CDFF919745B4900C63D50 /* Judson BaptistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568CDFD119745B4800C63D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568CDFED19745B4800C63D50 /* Main_iPad.storyboard in Resources */,
+				568CDFF519745B4800C63D50 /* Images.xcassets in Resources */,
+				568CDFEA19745B4800C63D50 /* Main_iPhone.storyboard in Resources */,
+				568CDFE119745B4800C63D50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568CDFF819745B4900C63D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568CE00619745B4900C63D50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568CDFCF19745B4800C63D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568CE016197468D600C63D50 /* Annotation.m in Sources */,
+				568CDFE319745B4800C63D50 /* main.m in Sources */,
+				566AD1B819772AF800C15F2D /* JudsonFourthViewController.m in Sources */,
+				568CDFF319745B4800C63D50 /* JudsonSecondViewController.m in Sources */,
+				568CDFF019745B4800C63D50 /* JudsonFirstViewController.m in Sources */,
+				568CDFE719745B4800C63D50 /* JudsonAppDelegate.m in Sources */,
+				568CE013197462A000C63D50 /* JudsonThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568CDFF619745B4900C63D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568CE00819745B4900C63D50 /* JudsonAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568CE00019745B4900C63D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568CDFD219745B4800C63D50 /* Judson Baptist */;
+			targetProxy = 568CDFFF19745B4900C63D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568CDFDF19745B4800C63D50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568CDFE019745B4800C63D50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		568CDFE819745B4800C63D50 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568CDFE919745B4800C63D50 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		568CDFEB19745B4800C63D50 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568CDFEC19745B4800C63D50 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		568CE00419745B4900C63D50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568CE00519745B4900C63D50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568CE00919745B4900C63D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568CE00A19745B4900C63D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568CE00C19745B4900C63D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JudsonApp/Judson Baptist-Prefix.pch";
+				INFOPLIST_FILE = "JudsonApp/Judson Baptist-Info.plist";
+				PRODUCT_NAME = "Judson Baptist";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		568CE00D19745B4900C63D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JudsonApp/Judson Baptist-Prefix.pch";
+				INFOPLIST_FILE = "JudsonApp/Judson Baptist-Info.plist";
+				PRODUCT_NAME = "Judson Baptist";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		568CE00F19745B4900C63D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JudsonApp.app/JudsonApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JudsonApp/JudsonApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JudsonAppTests/Judson BaptistTests-Info.plist";
+				PRODUCT_NAME = "Judson BaptistTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		568CE01019745B4900C63D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JudsonApp.app/JudsonApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JudsonApp/JudsonApp-Prefix.pch";
+				INFOPLIST_FILE = "JudsonAppTests/Judson BaptistTests-Info.plist";
+				PRODUCT_NAME = "Judson BaptistTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568CDFCE19745B4800C63D50 /* Build configuration list for PBXProject "Judson Baptist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568CE00919745B4900C63D50 /* Debug */,
+				568CE00A19745B4900C63D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568CE00B19745B4900C63D50 /* Build configuration list for PBXNativeTarget "Judson Baptist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568CE00C19745B4900C63D50 /* Debug */,
+				568CE00D19745B4900C63D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568CE00E19745B4900C63D50 /* Build configuration list for PBXNativeTarget "Judson BaptistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568CE00F19745B4900C63D50 /* Debug */,
+				568CE01019745B4900C63D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568CDFCB19745B4800C63D50 /* Project object */;
+}

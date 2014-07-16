@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="mlm-4c-O0H">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Judson First View Controller - First-->
+        <scene sceneID="Yej-OO-jQ6">
+            <objects>
+                <viewController title="First" id="Kge-ql-KqF" customClass="JudsonFirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VcO-vp-0jr"/>
+                        <viewControllerLayoutGuide type="bottom" id="wJQ-zE-3wY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UHu-Df-aWo">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vo8-lf-paE">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="cSL-91-ryl">
+                                <rect key="frame" x="374" y="502" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vo8-lf-paE" firstAttribute="top" secondItem="UHu-Df-aWo" secondAttribute="top" id="0JJ-VQ-JPa"/>
+                            <constraint firstItem="Vo8-lf-paE" firstAttribute="leading" secondItem="UHu-Df-aWo" secondAttribute="leading" id="3zR-cj-JnD"/>
+                            <constraint firstAttribute="centerX" secondItem="cSL-91-ryl" secondAttribute="centerX" id="LEu-Es-2es"/>
+                            <constraint firstAttribute="bottom" secondItem="Vo8-lf-paE" secondAttribute="bottom" id="N7E-Q5-6hB"/>
+                            <constraint firstAttribute="centerY" secondItem="cSL-91-ryl" secondAttribute="centerY" id="clO-6I-cSU"/>
+                            <constraint firstAttribute="trailing" secondItem="Vo8-lf-paE" secondAttribute="trailing" id="gSq-Og-l6U"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Judson" image="first" id="Unu-uc-Erf"/>
+                    <navigationItem key="navigationItem" title="Judson" id="kYi-zL-AeA">
+                        <barButtonItem key="leftBarButtonItem" image="More" id="ePD-kS-rp2">
+                            <color key="tintColor" red="0.180392161" green="0.30196079609999998" blue="0.52549022440000004" alpha="1" colorSpace="deviceRGB"/>
+                            <connections>
+                                <action selector="action:" destination="Kge-ql-KqF" id="tTW-Gy-ZfO"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="FgF-qc-vM8">
+                            <color key="tintColor" red="0.180392161" green="0.30196079609999998" blue="0.52549022440000004" alpha="1" colorSpace="deviceRGB"/>
+                            <connections>
+                                <action selector="refresh:" destination="Kge-ql-KqF" id="M37-fU-SiR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="moreButton" destination="ePD-kS-rp2" id="O6w-6M-JJ4"/>
+                        <outlet property="myActivityIndicator" destination="cSL-91-ryl" id="5Go-pi-yEn"/>
+                        <outlet property="myWebView" destination="Vo8-lf-paE" id="fa7-JC-Vb4"/>
+                        <outlet property="refreshButton" destination="FgF-qc-vM8" id="k5b-3e-War"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tNb-SR-unj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1595" y="-777"/>
+        </scene>
+        <!--Judson Second View Controller - Second-->
+        <scene sceneID="o4s-VM-J04">
+            <objects>
+                <viewController title="Second" id="h6y-lQ-XDF" customClass="JudsonSecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mKk-ij-zSt"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Vr-x9-PCP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uxk-94-LIb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="second" id="yDT-3S-CJm"/>
+                    <navigationItem key="navigationItem" title="Map" id="Siu-NK-ze9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mNo-UF-SFT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1595" y="425"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Zk2-ZO-M7u">
+            <objects>
+                <tabBarController id="mlm-4c-O0H" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qdW-vT-w9V">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KU0-tl-wWy" kind="relationship" relationship="viewControllers" id="UPQ-hG-4bq"/>
+                        <segue destination="aN2-EL-MYd" kind="relationship" relationship="viewControllers" id="F7U-up-9yK"/>
+                        <segue destination="Mi5-nv-Rf6" kind="relationship" relationship="viewControllers" id="CHc-Nr-aFh"/>
+                        <segue destination="lOf-Kl-Lip" kind="relationship" relationship="viewControllers" id="M8G-6E-phc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5qS-35-kZ9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-369" y="554"/>
+        </scene>
+        <!--Navigation Controller - Give-->
+        <scene sceneID="ISD-Pv-bGc">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="lOf-Kl-Lip" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Give" id="0zf-bz-Wya"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l6z-67-TcK">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nGP-PM-y8Z" kind="relationship" relationship="rootViewController" id="xEb-YI-5eb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wno-hg-XUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="2899"/>
+        </scene>
+        <!--Judson Third View Controller - Second-->
+        <scene sceneID="BgK-Zq-5cf">
+            <objects>
+                <viewController title="Second" id="nGP-PM-y8Z" customClass="JudsonThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mbj-6w-T7c"/>
+                        <viewControllerLayoutGuide type="bottom" id="5bS-tS-Zeh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0WQ-47-1Jt">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wrj-i4-jUs">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="3d7-1v-M9G">
+                                <rect key="frame" x="374" y="502" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wrj-i4-jUs" firstAttribute="leading" secondItem="0WQ-47-1Jt" secondAttribute="leading" id="3xh-vW-iz6"/>
+                            <constraint firstItem="Wrj-i4-jUs" firstAttribute="top" secondItem="0WQ-47-1Jt" secondAttribute="top" id="Afd-fu-S7Z"/>
+                            <constraint firstAttribute="trailing" secondItem="Wrj-i4-jUs" secondAttribute="trailing" id="IF1-GD-SKc"/>
+                            <constraint firstAttribute="centerX" secondItem="3d7-1v-M9G" secondAttribute="centerX" id="LeA-3B-lcM"/>
+                            <constraint firstAttribute="bottom" secondItem="Wrj-i4-jUs" secondAttribute="bottom" id="VpM-d9-Wz7"/>
+                            <constraint firstAttribute="centerY" secondItem="3d7-1v-M9G" secondAttribute="centerY" id="bFr-Gb-3kY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Give" image="third" id="CqQ-cY-YFS"/>
+                    <navigationItem key="navigationItem" title="Give" id="CRW-FT-lCs">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="igV-Ud-Slp">
+                            <connections>
+                                <action selector="refreshPage:" destination="nGP-PM-y8Z" id="LhW-re-Ncl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myActivityIndicator" destination="3d7-1v-M9G" id="S12-z8-sH5"/>
+                        <outlet property="myWebView" destination="Wrj-i4-jUs" id="7AH-03-yMX"/>
+                        <outlet property="refresh" destination="igV-Ud-Slp" id="qbD-3s-Q6a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWT-J1-lO7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1595" y="2899"/>
+        </scene>
+        <!--Navigation Controller - Map-->
+        <scene sceneID="Q0V-wP-oI5">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="aN2-EL-MYd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" id="rYW-n5-hiF"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cTb-Od-eSb">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="h6y-lQ-XDF" kind="relationship" relationship="rootViewController" id="oji-V5-44Y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWG-LL-sJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="425"/>
+        </scene>
+        <!--Navigation Controller - Judson-->
+        <scene sceneID="sCT-0r-VQh">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="KU0-tl-wWy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Judson" id="R00-WZ-YbN"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hv7-Ok-Afe">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Kge-ql-KqF" kind="relationship" relationship="rootViewController" id="qPM-rj-mSg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpM-h3-pq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="-777"/>
+        </scene>
+        <!--Navigation Controller - Media-->
+        <scene sceneID="Svc-Lq-yy2">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Mi5-nv-Rf6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Media" id="xlw-Vm-kSt"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yvS-NU-CGp">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="X8K-np-nmy" kind="relationship" relationship="rootViewController" id="bpC-9B-M9V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fI5-5Y-P3D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="1631"/>
+        </scene>
+        <!--Judson Fourth View Controller - Second-->
+        <scene sceneID="hdT-6C-zwW">
+            <objects>
+                <viewController title="Second" id="X8K-np-nmy" customClass="JudsonFourthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cvB-Y3-nbM"/>
+                        <viewControllerLayoutGuide type="bottom" id="hvV-qb-aI2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XBn-GM-eXW">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kls-ZC-b6d">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="0HH-CI-iMO">
+                                <rect key="frame" x="374" y="502" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kls-ZC-b6d" secondAttribute="trailing" id="Bc2-Ef-rdD"/>
+                            <constraint firstAttribute="centerX" secondItem="0HH-CI-iMO" secondAttribute="centerX" id="Eh5-Vm-fgo"/>
+                            <constraint firstItem="kls-ZC-b6d" firstAttribute="leading" secondItem="XBn-GM-eXW" secondAttribute="leading" id="OzY-It-kQD"/>
+                            <constraint firstAttribute="centerY" secondItem="0HH-CI-iMO" secondAttribute="centerY" id="UIv-lO-p0g"/>
+                            <constraint firstItem="kls-ZC-b6d" firstAttribute="top" secondItem="XBn-GM-eXW" secondAttribute="top" id="ePe-17-OnE"/>
+                            <constraint firstAttribute="bottom" secondItem="kls-ZC-b6d" secondAttribute="bottom" id="fdt-nR-cr4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Media" image="fourth" id="7Lf-sD-xul"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Media" id="oJ9-1b-6wO">
+                        <barButtonItem key="leftBarButtonItem" image="More" id="hIO-ee-6lj">
+                            <color key="tintColor" red="0.180392161" green="0.30196079609999998" blue="0.52549022440000004" alpha="1" colorSpace="deviceRGB"/>
+                            <connections>
+                                <action selector="action:" destination="X8K-np-nmy" id="qPD-6J-ZCo"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="wmx-9h-OrW">
+                            <color key="tintColor" red="0.180392161" green="0.30196079609999998" blue="0.52549022440000004" alpha="1" colorSpace="deviceRGB"/>
+                            <connections>
+                                <action selector="refreshPage:" destination="X8K-np-nmy" id="qhl-Wa-B8Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="moreButton" destination="hIO-ee-6lj" id="yom-xq-GzD"/>
+                        <outlet property="myActivityIndicator" destination="0HH-CI-iMO" id="fqj-wS-bMN"/>
+                        <outlet property="myWebView" destination="kls-ZC-b6d" id="1E8-0Y-VNj"/>
+                        <outlet property="refreshButton" destination="wmx-9h-OrW" id="Kyn-v9-yeE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ex9-iv-Gvv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1595" y="1631"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="More" width="23" height="4"/>
+        <image name="first" width="30" height="30"/>
+        <image name="fourth" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+        <image name="third" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
