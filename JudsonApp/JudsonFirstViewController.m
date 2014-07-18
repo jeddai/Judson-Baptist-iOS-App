@@ -83,7 +83,22 @@
     [myWebView reload];
 }
 
-- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    NSURL *scriptUrl = [NSURL URLWithString:@"http://www.google.com/"];
+    NSData *data = [NSData dataWithContentsOfURL:scriptUrl];
+    if(data)
+    {
+        
+    }
+    else
+    {
+        [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(home) userInfo:nil repeats:NO];
+    }
+}
+
+- (void)home
+{
     [myWebView loadRequest:urlRequest];
 }
 
