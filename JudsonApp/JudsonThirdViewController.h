@@ -10,12 +10,9 @@
 
 @interface JudsonThirdViewController : UIViewController<UIWebViewDelegate, UIGestureRecognizerDelegate>
 {
-    __weak IBOutlet UIWebView *myWebView;
-    NSURL *websiteUrl;
-    NSURLRequest *urlRequest;
-    __weak IBOutlet UIActivityIndicatorView *myActivityIndicator;
-    __weak IBOutlet UIBarButtonItem *refresh;
+    __weak IBOutlet UIButton *giving;
 }
-- (IBAction)refreshPage:(id)sender;
+- (IBAction)openSafari:(id)sender;
+
 
 @end

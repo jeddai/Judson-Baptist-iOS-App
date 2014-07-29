@@ -25,13 +25,6 @@
                                 <rect key="frame" x="150" y="274" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNg-Z6-D7a">
-                                <rect key="frame" x="500" y="369" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92941182850000004" green="0.92941182850000004" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
@@ -138,38 +131,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C3Y-Sm-yru">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.92941182850000004" green="0.92941182850000004" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                            </webView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Tap-pT-qTc">
-                                <rect key="frame" x="150" y="274" width="20" height="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXv-i4-YbW">
+                                <rect key="frame" x="93" y="332" width="134" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </activityIndicatorView>
+                                <state key="normal" title="Go to Online Giving">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openSafari:" destination="7Ts-hg-9oV" eventType="touchUpInside" id="4Z9-iN-INO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For your security, please" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qL4-dU-Zgm">
+                                <rect key="frame" x="66" y="187" width="188" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="click below" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KC-U7-K04">
+                                <rect key="frame" x="117" y="216" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to open Judson's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qs2-Tr-Kp5">
+                                <rect key="frame" x="93" y="245" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="easy online giving page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDQ-kR-N11">
+                                <rect key="frame" x="70" y="274" width="180" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in your web browser." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbL-wo-Tup">
+                                <rect key="frame" x="81" y="303" width="159" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.92941182850000004" green="0.92941182850000004" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Tap-pT-qTc" secondAttribute="centerY" id="16Q-K2-mnq"/>
-                            <constraint firstAttribute="centerX" secondItem="Tap-pT-qTc" secondAttribute="centerX" id="B3i-ch-xBq"/>
-                            <constraint firstItem="C3Y-Sm-yru" firstAttribute="top" secondItem="DNC-XM-WDR" secondAttribute="top" id="GTu-5p-dKs"/>
-                            <constraint firstItem="C3Y-Sm-yru" firstAttribute="leading" secondItem="DNC-XM-WDR" secondAttribute="leading" id="YO0-dU-YGu"/>
-                            <constraint firstAttribute="bottom" secondItem="C3Y-Sm-yru" secondAttribute="bottom" id="gfE-5d-J3f"/>
-                            <constraint firstAttribute="trailing" secondItem="C3Y-Sm-yru" secondAttribute="trailing" id="qUQ-QD-y3o"/>
+                            <constraint firstAttribute="centerX" secondItem="4KC-U7-K04" secondAttribute="centerX" id="21x-TP-XSh"/>
+                            <constraint firstAttribute="centerY" secondItem="pDQ-kR-N11" secondAttribute="centerY" id="4Yb-GG-ydK"/>
+                            <constraint firstItem="Qs2-Tr-Kp5" firstAttribute="top" secondItem="4KC-U7-K04" secondAttribute="bottom" constant="8" id="KH0-rC-TD8"/>
+                            <constraint firstAttribute="centerX" secondItem="pDQ-kR-N11" secondAttribute="centerX" id="LVZ-n7-i6X"/>
+                            <constraint firstItem="qXv-i4-YbW" firstAttribute="top" secondItem="YbL-wo-Tup" secondAttribute="bottom" constant="8" id="ctO-mf-d4F"/>
+                            <constraint firstAttribute="centerX" secondItem="qXv-i4-YbW" secondAttribute="centerX" id="hV9-FP-iZa"/>
+                            <constraint firstAttribute="centerX" secondItem="qL4-dU-Zgm" secondAttribute="centerX" id="hVX-ud-OLI"/>
+                            <constraint firstItem="YbL-wo-Tup" firstAttribute="top" secondItem="pDQ-kR-N11" secondAttribute="bottom" constant="8" id="kny-0W-cNN"/>
+                            <constraint firstAttribute="centerX" secondItem="YbL-wo-Tup" secondAttribute="centerX" id="mPO-YL-CsB"/>
+                            <constraint firstItem="pDQ-kR-N11" firstAttribute="top" secondItem="Qs2-Tr-Kp5" secondAttribute="bottom" constant="8" id="sre-mJ-fll"/>
+                            <constraint firstAttribute="centerX" secondItem="Qs2-Tr-Kp5" secondAttribute="centerX" id="u5D-S8-OCZ"/>
+                            <constraint firstItem="4KC-U7-K04" firstAttribute="top" secondItem="qL4-dU-Zgm" secondAttribute="bottom" constant="8" id="vi2-bb-aI1"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Give" image="third" id="Nla-ih-uof"/>
-                    <navigationItem key="navigationItem" title="Give" id="qrE-wr-bFO">
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="oNP-1r-3L5">
-                            <connections>
-                                <action selector="refreshPage:" destination="7Ts-hg-9oV" id="cEW-Uw-a1C"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Give" id="qrE-wr-bFO"/>
                     <connections>
-                        <outlet property="myActivityIndicator" destination="Tap-pT-qTc" id="32M-MX-iQi"/>
-                        <outlet property="myWebView" destination="C3Y-Sm-yru" id="nui-6r-sFw"/>
-                        <outlet property="refresh" destination="oNP-1r-3L5" id="33T-NZ-bIE"/>
+                        <outlet property="giving" destination="qXv-i4-YbW" id="ER8-mX-a3p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2c-7G-nKJ" sceneMemberID="firstResponder"/>
