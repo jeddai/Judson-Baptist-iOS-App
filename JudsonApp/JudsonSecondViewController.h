@@ -15,5 +15,6 @@
 }
 
 @property(nonatomic, retain) MKMapView *mapView;
+@property (nonatomic) UIInterfaceOrientation orientation;
 
 @end

@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.orientation = (UIInterfaceOrientation) [UIDevice currentDevice].orientation;
     mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
     mapView.mapType = MKMapTypeStandard;
     
@@ -47,6 +48,25 @@
     ann.subtitle = @"4900 Franklin Road, Nashville, TN 37220";
     
     [mapView addAnnotation:ann];
+}
+
+- (void)updateLayoutForNewOrientation:(UIInterfaceOrientation)orientation
+{
+    [self viewDidLoad];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    if(self.orientation != (UIInterfaceOrientation) [UIDevice currentDevice].orientation)
+    {
+        [super viewWillAppear:animated];
+        [self updateLayoutForNewOrientation:self.interfaceOrientation];
+        self.orientation = (UIInterfaceOrientation) [UIDevice currentDevice].orientation;
+    }
+}
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation duration:(NSTimeInterval)duration
+{
+    [self updateLayoutForNewOrientation:self.interfaceOrientation];
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)annotMapView viewForAnnotation:(id <MKAnnotation>)annotation

@@ -13,6 +13,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
+    
     sleep(1);
     
     NSURL *scriptUrl = [NSURL URLWithString:@"http://www.google.com/"];
@@ -33,6 +36,12 @@
     [[UINavigationBar appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName: [UIColor blackColor],NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:16.0f]}];
     
     return YES;
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    NSString *deviceTokenString = [NSString stringWithFormat:@"%@", deviceToken];
+    NSLog(@"%@", deviceTokenString);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
