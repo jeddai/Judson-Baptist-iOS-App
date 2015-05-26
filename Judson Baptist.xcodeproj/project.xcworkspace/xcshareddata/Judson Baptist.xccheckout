@@ -14,7 +14,7 @@
 		<string>https://github.com/jeddai/Judson-Baptist-iOS-App.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Judson Baptist.xcodeproj/project.xcworkspace</string>
+	<string>Judson Baptist.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B9733691A547AEB844437404316083DEE420E046</key>

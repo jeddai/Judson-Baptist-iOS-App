@@ -14,7 +14,7 @@
 {
     // Override point for customization after application launch.
     
-    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
+    //[[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
     
     sleep(1);
     
@@ -38,11 +38,11 @@
     return YES;
 }
 
-- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
-{
-    NSString *deviceTokenString = [NSString stringWithFormat:@"%@", deviceToken];
-    NSLog(@"%@", deviceTokenString);
-}
+//- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+//{
+//    NSString *deviceTokenString = [NSString stringWithFormat:@"%@", deviceToken];
+//    NSLog(@"%@", deviceTokenString);
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
